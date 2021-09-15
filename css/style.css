@@ -1,112 +1,120 @@
-body{
-  margin: auto;
-  width: 50%;
-  font-size: 14px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.intestazione{
-  width: 100%;
-  height: 50px;
-  background-color: lightskyblue;
-  background-image: url("../img/pattern.png");
-  
-  background-size: 50%;
+
+#panel{
+width: 80%;
+height: 60px;
+background-image: url(../img/pattern.png);
+background-size: 28%;
+background-color: #4EA0FF;
+margin: 0 auto;
+}
+
+#logo{
+  width: 150px;
+  height: 80px;
+  margin-left: 50px;
+}
+
+.container{
+  width: 70%;
+
+  margin: 0 auto;
+  font-size: 12px;
 }
 
 h2{
   margin-top: 10px;
-  margin-bottom: 0px;
+  
 }
 
-header img{
-  height: 50%;
-  padding-top: 20px;
+.subtitle{
+  color: grey;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
-header a{
-  color: blue;
-  text-decoration: none;
- 
-}
-
-.autore{
-  font-size: 12px;
+.date{
+  font-size: 10px;
   display: block;
 }
 
-.data{
-  font-size: 10px;
+.position-img{
+  background-position: center;
+  background-size: contain;
+  width: 49%;
+  height: 250px;
 }
 
-span{
-  color: gray;
+.caption{
+  font-size: 8px;
 }
 
-
-.img-affiancata {
-  height: 200px;
-  width: 50%;
-}
-
-
-.box-commenti{
-  width: 50%;
-}
-
-
-.commento1{
-  font-size: 10px;
-  margin: 0;
-}
-
-.bg-yellow{
-  color: black;
+.first-p>span{
   background-color: yellow;
 }
 
-.prima-riga {
-  background-color: rgb(21, 121, 253);
+.first-p{
+  margin: 15px 0;
+}
+
+ul{
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+thead{
+  background-color: #20A9E5;
   color: white;
+}
+
+th{
+  width: 40px;
   text-align: left;
 }
 
-.seconda-riga, .terza-riga{
-  background-color:lightblue;
+tbody tr:nth-child(odd) {
+  background-color: #B1E5F2;
 }
 
-.commento-footer{
-  font-size: 12px;
-  font-weight: 700;
-}
-
-/* .img-finale{
-  width: 150px;
-  height: 150px;
+#grey{
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 10px;
   display: block;
-  object-fit: cover;
-  margin: 4px;
-} */
+}
 
+.lorem1{
+  background-image: url(../img/monitor.jpg);
+}
 
+.lorem2{
+  background-image: url(../img/graph.jpg);
+}
 
-.lorem-img1, .lorem-img2{
+.img-footer{
+  height: 120px;
   width: 150px;
-  height: 100px;
-  color: black;
-  background-size: 100%;
-  margin-top: 4px;
-  font-weight: 700;
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.lorem1 span, .lorem2 span{
   color: white;
-  padding: 4px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 15px;
 
-}
-
-.lorem-img1{
-  background-image: url("../img/monitor.jpg");
-  margin-bottom: 7px;
-
-}
-
-.lorem-img2{
-  background-image: url("../img/graph.jpg");
 }
